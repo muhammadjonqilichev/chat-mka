@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop-chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="chat-box">
+        <div class="main">
+            <header class="chat-box__title title">
+                <div class="container">
+                    <p class="title__text">mark zuckerberg</p>
+                    <a href="#"><img class="title__image" src="./img/close.svg" alt="close"></a>
+                </div>
+            </header>
+            <div class="container">
+                <p class="chat-box_date">today</p>
+                <div class="chat-box_message g-m">
+                    <time class="g-m__time">10:53</time>
+                    <p class="g-m__text">Hi, Mark! I made a new design for Messenger App.</p>
+                </div>
+                <div class="chat-box__meassage o-m">
+                    <time class="o-m__time">10:57</time>
+                    <p class="o-m__text">Yo! Send it to my assistant and we`ll rewiew it during the year.</p>
+                </div>
+                <div class="chat-box_message g-m-2">
+                    <time class="g-m-2__time">10:53</time>
+                    <p class="g-m-2__text">But Mark...</p>
+                </div>
+                <div class="chat-box__meassage o-m-2">
+                    <time class="o-m-2__time">10:57</time>
+                    <p class="o-m-2__text">You were blocked by the user</p>
+                </div>
+                <hr>
+                <form class="chat-box__send" action="http://echo.htmlacademy.ru" method="POST">
+                    <input class="chat-box__input" type="text" placeholder="Enter your message">
+                    <button type="submit" class="chat-box__btn">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
